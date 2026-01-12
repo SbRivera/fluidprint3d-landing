@@ -1,0 +1,72 @@
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--color-bg-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  overflow: hidden;
+}
+
+.loading-screen__content {
+  text-align: center;
+  z-index: 2;
+}
+
+.loading-screen__logo {
+  margin-bottom: 40px;
+}
+
+.loading-screen__logo-text {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.loading-screen__loader {
+  width: 200px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 0 auto 24px;
+}
+
+.loading-screen__bar {
+  width: 100%;
+  height: 100%;
+  background: var(--gradient-primary);
+  transform-origin: left;
+  border-radius: 2px;
+}
+
+.loading-screen__text {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Particles */
+.loading-screen__particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.loading-screen__particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--color-primary);
+}
