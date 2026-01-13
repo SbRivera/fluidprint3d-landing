@@ -16,9 +16,7 @@ const LoadingScreen = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         >
-          <span className="loading-screen__logo-text">
-            Fluid<span className="gradient-text">Print</span>3D
-          </span>
+          <img src="/Logo2.png" alt="FluidPrint3D" className="loading-screen__logo-img" />
         </motion.div>
 
         <div className="loading-screen__loader">

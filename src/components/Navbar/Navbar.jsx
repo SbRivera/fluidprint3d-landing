@@ -47,9 +47,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <span className="navbar__logo-text">
-              Fluid<span className="gradient-text">Print</span>3D
-            </span>
+            <img src="/Logo2.png" alt="FluidPrint3D" className="navbar__logo-img" />
           </motion.a>
 
           <div className="navbar__links">

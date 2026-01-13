@@ -46,7 +46,7 @@ const Footer = () => {
               className="footer__logo"
               whileHover={{ scale: 1.05 }}
             >
-              Fluid<span className="gradient-text">Print</span>3D
+              <img src="/Logo2.png" alt="FluidPrint3D" className="footer__logo-img" />
             </motion.a>
             <p className="footer__description">
               Transformamos ideas en realidades tangibles. Especialistas en impresión 3D 

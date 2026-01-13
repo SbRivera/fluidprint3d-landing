@@ -18,8 +18,13 @@
 }
 
 .loading-screen__logo {
-  margin-bottom: 40px;
+  margin-bottom: 40px;  text-align: center;
 }
+
+.loading-screen__logo-img {
+  height: 80px;
+  width: auto;
+  object-fit: contain;}
 
 .loading-screen__logo-text {
   font-family: var(--font-display);
