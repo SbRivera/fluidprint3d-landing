@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { AnimatePresence } from 'framer-motion';
 
 // Components
@@ -34,7 +34,7 @@ function App() {
       </AnimatePresence>
 
       {!isLoading && (
-        <>
+        <Suspense fallback={<LoadingScreen />}>
           <CustomCursor />
           <div className="noise-overlay" />
           <Navbar />
@@ -47,7 +47,7 @@ function App() {
             <Contact />
           </main>
           <Footer />
-        </>
+        </Suspense>
       )}
     </>
   );
