@@ -20,7 +20,7 @@ const AnimatedSphere = () => {
     <Float speed={2} rotationIntensity={1} floatIntensity={2}>
       <Sphere ref={meshRef} args={[1, 100, 100]} scale={2.2}>
         <MeshDistortMaterial
-          color="#00D9FF"
+          color="#14BFFF"
           attach="material"
           distort={0.4}
           speed={2}
@@ -73,7 +73,7 @@ const Particles = ({ count = 100 }) => {
   return (
     <instancedMesh ref={mesh} args={[null, null, count]}>
       <sphereGeometry args={[0.02, 8, 8]} />
-      <meshBasicMaterial color="#00D9FF" transparent opacity={0.6} />
+      <meshBasicMaterial color="#14BFFF" transparent opacity={0.6} />
     </instancedMesh>
   );
 };
@@ -123,8 +123,8 @@ const Hero = () => {
       <div className="hero__canvas">
         <Canvas camera={{ position: [0, 0, 5], fov: 75 }}>
           <ambientLight intensity={0.5} />
-          <pointLight position={[10, 10, 10]} intensity={1} color="#00D9FF" />
-          <pointLight position={[-10, -10, -10]} intensity={0.5} color="#7B2DFF" />
+          <pointLight position={[10, 10, 10]} intensity={1} color="#14BFFF" />
+          <pointLight position={[-10, -10, -10]} intensity={0.5} color="#FF8C46" />
           <AnimatedSphere />
           <Particles count={150} />
         </Canvas>

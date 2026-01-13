@@ -13,9 +13,9 @@
   --color-white: #FFFFFF;
   
   /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #00D9FF 0%, #7B2DFF 100%);
-  --gradient-secondary: linear-gradient(135deg, #FF3366 0%, #7B2DFF 100%);
-  --gradient-glow: radial-gradient(ellipse at center, rgba(0, 217, 255, 0.15) 0%, transparent 70%);
+  --gradient-primary: linear-gradient(135deg, #14BFFF 0%, #FF8C46 100%);
+  --gradient-secondary: linear-gradient(135deg, #40E0D0 0%, #FF8C46 100%);
+  --gradient-glow: radial-gradient(ellipse at center, rgba(20, 191, 255, 0.15) 0%, transparent 70%);
   
   /* Typography */
   --font-display: 'Space Grotesk', sans-serif;
