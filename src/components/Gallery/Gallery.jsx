@@ -6,49 +6,28 @@ import './Gallery.css';
 const projects = [
   {
     id: 1,
-    title: 'Figura de Colección',
-    category: 'Coleccionables',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop',
-    description: 'Figura detallada de personaje para coleccionista.',
+    title: 'Impresión 3D Avanzada',
+    category: 'Ingeniería',
+    image: '/imagen 1.jpeg',
+    description: 'Servicios de impresión 3D de diseño, ingeniería y más.',
   },
   {
     id: 2,
-    title: 'Trofeo Corporativo',
-    category: 'Publicidad',
-    image: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=600&h=400&fit=crop',
-    description: 'Premio personalizado con identidad de marca.',
+    title: 'Creatividad en Objetos Reales',
+    category: 'Diseño',
+    image: '/imagen 2.jpeg',
+    description: 'Transformamos creatividad en objetos reales.',
   },
   {
     id: 3,
-    title: 'Casco Cosplay',
-    category: 'Cosplay',
-    image: 'https://images.unsplash.com/photo-1608889175123-8ee362201f81?w=600&h=400&fit=crop',
-    description: 'Casco de armadura para cosplay profesional.',
-  },
-  {
-    id: 4,
-    title: 'Lámpara Decorativa',
-    category: 'Decoración',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop',
-    description: 'Lámpara personalizada con diseño único.',
-  },
-  {
-    id: 5,
-    title: 'Souvenir Personalizado',
-    category: 'Regalos',
-    image: 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=600&h=400&fit=crop',
-    description: 'Regalo único para ocasiones especiales.',
-  },
-  {
-    id: 6,
-    title: 'Prototipo Industrial',
-    category: 'Prototipos',
-    image: 'https://images.unsplash.com/photo-1631544917929-08b8d6e71d73?w=600&h=400&fit=crop',
-    description: 'Prototipo funcional para validación de diseño.',
+    title: 'Identidad de Marca',
+    category: 'Branding',
+    image: '/imagen 3.jpeg',
+    description: 'Aplicación de la identidad visual FluidPrint3D.',
   },
 ];
 
-const categories = ['Todos', 'Coleccionables', 'Publicidad', 'Cosplay', 'Decoración', 'Regalos', 'Prototipos'];
+const categories = ['Todos', 'Ingeniería', 'Diseño', 'Branding'];
 
 const Gallery = () => {
   const ref = useRef(null);

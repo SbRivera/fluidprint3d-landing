@@ -1,44 +1,44 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Gift, Megaphone, Palette, Sparkles, Users, Wand2 } from 'lucide-react';
+import { Lightbulb, Target, Users, Shield, Gift, Palette } from 'lucide-react';
 import './Services.css';
 
 const services = [
   {
-    icon: Gift,
-    title: 'Regalos Personalizados',
-    description: 'Crea obsequios únicos e inolvidables. Figuras, souvenirs, y recuerdos que capturan momentos especiales de manera tangible.',
-    color: '#00D9FF',
+    icon: Lightbulb,
+    title: 'Innovación',
+    description: 'Cultivamos ideas creativas y soluciones avanzadas. Exploramos nuevas posibilidades en cada proyecto con tecnología de vanguardia.',
+    color: '#14BFFF',
   },
   {
-    icon: Megaphone,
-    title: 'Publicidad & Marca',
-    description: 'Artículos promocionales que destacan. Merchandising 3D ajustado a tu identidad de marca para campañas memorables.',
-    color: '#FF3366',
-  },
-  {
-    icon: Palette,
-    title: 'Cosplays & Props',
-    description: 'Accesorios, armaduras y props de alta calidad para cosplayers. Llevamos tus personajes favoritos a la realidad.',
-    color: '#7B2DFF',
-  },
-  {
-    icon: Sparkles,
-    title: 'Decoración & Hogar',
-    description: 'Piezas decorativas exclusivas para tu espacio. Desde macetas hasta lámparas, todo diseñado a tu gusto.',
-    color: '#00D9FF',
+    icon: Target,
+    title: 'Precisión',
+    description: 'Buscamos la exactitud en cada detalle y pieza. Nuestro compromiso es la perfección en cada impresión y acabado.',
+    color: '#FF8C46',
   },
   {
     icon: Users,
-    title: 'Figuras & Coleccionables',
-    description: 'Figuras de acción, maquetas y coleccionables personalizados. Ideal para fans y coleccionistas exigentes.',
-    color: '#FF3366',
+    title: 'Colaboración',
+    description: 'Trabajamos en equipo y valoramos las alianzas. Tu participación es clave para lograr el resultado perfecto.',
+    color: '#40E0D0',
   },
   {
-    icon: Wand2,
-    title: 'Diseño a Medida',
-    description: 'Te asesoramos en cada paso hasta lograr exactamente lo que buscas. Tu satisfacción es nuestra prioridad.',
-    color: '#7B2DFF',
+    icon: Shield,
+    title: 'Calidad',
+    description: 'Nos comprometemos con la excelencia constante. Utilizamos materiales premium y procesos certificados.',
+    color: '#14BFFF',
+  },
+  {
+    icon: Gift,
+    title: 'Regalos & Merchandising',
+    description: 'Artículos personalizados únicos e inolvidables. Desde regalos corporativos hasta souvenirs especiales.',
+    color: '#FF8C46',
+  },
+  {
+    icon: Palette,
+    title: 'Diseño Personalizado',
+    description: 'Te asesoramos hasta dar con exactamente lo que buscas. Tu satisfacción es nuestra máxima prioridad.',
+    color: '#40E0D0',
   },
 ];
 

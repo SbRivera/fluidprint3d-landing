@@ -146,15 +146,15 @@ const Hero = () => {
           </motion.span>
 
           <motion.h1 className="hero__title" variants={itemVariants}>
-            Damos vida a tus
+            Dando forma a tus ideas con
             <br />
-            <span className="gradient-text">ideas en 3D</span>
+            <span className="gradient-text">impresión 3D avanzada</span>
           </motion.h1>
 
           <motion.p className="hero__description" variants={itemVariants}>
-            En FluidPrint3D transformamos conceptos en realidad tangible. 
-            Especialistas en impresión 3D personalizada para regalos únicos, 
-            artículos promocionales, cosplays y mucho más. Tu imaginación es nuestro límite.
+            Transformamos creatividad en objetos reales. Servicios de impresión 3D de diseño, 
+            ingeniería y más. Cultivamos ideas creativas y soluciones avanzadas con precisión 
+            en cada detalle.
           </motion.p>
 
           <motion.div className="hero__cta-group" variants={itemVariants}>
