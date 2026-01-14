@@ -10,9 +10,9 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
-    radial-gradient(ellipse at top left, rgba(0, 217, 255, 0.08) 0%, transparent 50%),
-    radial-gradient(ellipse at bottom right, rgba(123, 45, 255, 0.08) 0%, transparent 50%);
+  background:
+    radial-gradient(ellipse at top left, rgba(20, 191, 255, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom right, rgba(255, 140, 70, 0.08) 0%, transparent 50%);
   pointer-events: none;
 }
 

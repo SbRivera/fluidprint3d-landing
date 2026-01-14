@@ -13,8 +13,8 @@
   --color-white: #FFFFFF;
   
   /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #14BFFF 0%, #FF8C46 100%);
-  --gradient-secondary: linear-gradient(135deg, #40E0D0 0%, #FF8C46 100%);
+  --gradient-primary: linear-gradient(135deg, #14BFFF 0%, #0B1C2D 50%, #FF8C46 100%);
+  --gradient-secondary: linear-gradient(135deg, #40E0D0 0%, #0B1C2D 50%, #FF8C46 100%);
   --gradient-glow: radial-gradient(ellipse at center, rgba(20, 191, 255, 0.15) 0%, transparent 70%);
   
   /* Typography */
